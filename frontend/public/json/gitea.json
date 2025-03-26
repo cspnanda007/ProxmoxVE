@@ -23,6 +23,7 @@
                 "hdd": 8,
                 "os": "debian",
                 "version": "12"
+            }
         },
         {
             "type": "alpine",
