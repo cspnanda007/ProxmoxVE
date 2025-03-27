@@ -1,0 +1,34 @@
+{
+    "name": "metabase",
+    "slug": "metabase",
+    "categories": [
+        12
+    ],
+    "date_created": "2025-03-26",
+    "type": "ct",
+    "updateable": true,
+    "privileged": false,
+    "interface_port": 3000,
+    "documentation": "https://www.metabase.com/docs/latest/",
+    "website": "https://www.metabase.com/",
+    "logo": "https://www.metabase.com/images/logo-with-wordmark.svg",
+    "description": "Fast analytics with the friendly UX and integrated tooling to let your company explore data on their own.",
+    "install_methods": [
+      {
+        "type": "default",
+        "script": "ct/metabase.sh",
+        "resources": {
+          "cpu": 2,
+          "ram": 3072,
+          "hdd": 6,
+          "os": "debian",
+          "version": "12"
+        }
+      }
+    ],
+    "default_credentials": {
+      "username": null,
+      "password": null
+    },
+    "notes": []
+  }
